@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Source+Serif+Pro:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #34353a;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+img {
+  max-width: 100%;
+}
+
+$gold: #2b8ed4;
+.center {
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-family: "Source Serif Pro", serif;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}

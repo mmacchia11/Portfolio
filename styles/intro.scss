@@ -1,0 +1,58 @@
+section#intro {
+  max-width: 780px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section#intro p {
+  color: #fff;
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  opacity: 0;
+  transition: all 0.6s linear;
+  position: relative;
+  left: -50px;
+}
+
+section#intro.visible p {
+  opacity: 1;
+  left: 0;
+}
+
+section#intro a {
+  border: 3px solid $gold;
+  border-radius: 7px;
+  color: $gold;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 1.4rem;
+  opacity: 0;
+  position: relative;
+  transition: all 0.6s linear;
+  bottom: -50px;
+}
+
+section#intro.visible a {
+  opacity: 1;
+  bottom: 0;
+}
+
+section#intro span {
+  color: #2b8ed4;
+  font-family: "Source Serif Pro", serif;
+  font-size: 3rem;
+  font-weight: 600;
+}
+section#intro img {
+  max-width: 300px;
+  opacity: 0;
+  transition: opacity 0.6s linear;
+}
+
+section#intro.visible img {
+  opacity: 1;
+}
